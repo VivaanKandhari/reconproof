@@ -4,7 +4,7 @@ Exact-money partial reconciliation, equal-optimum ambiguity witnesses, and indep
 
 Video: https://youtu.be/mD1z-3-djWc (Unlisted; YouTube displays 2:17). It renders real locally executed Worker API responses, not fabricated browser captures.
 
-Public demo target: https://vivaankandhari.github.io/reconproof/ . To keep the public address free of platform branding, this deployment runs the same solver and verifier locally in the browser. It does not send submitted records to the separate Worker service. The optional Worker API remains available for local reproduction; its hosted preview is private. Publication status and actual access are recorded in VALIDATION.md.
+Live app: https://vivaankandhari.github.io/reconproof/ . This deployment runs the same solver and verifier locally in the browser. It does not send submitted records to the separate Worker service. The optional Worker API remains available for local reproduction; its hosted preview is private. The public app's allocation and certificate verification were checked on 18 October 2026.
 
 ## Run
 

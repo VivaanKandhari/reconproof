@@ -1,6 +1,6 @@
 # ReconProof — Galuxium submission payload
 
-Status: registered solo; built after registration on 18 October 2026. Source and demo published. Public browser-local deployment is being published on GitHub Pages at the user's requested address without a branded hostname. The separate Worker preview remains private. Devpost draft and final submission are NOT yet created/confirmed because its verification page blocks access.
+Status: registered solo; built after registration on 18 October 2026. Source, Unlisted demo and public browser-local app published and verified. The separate Worker preview remains private. Devpost draft and final submission are NOT yet created/confirmed because its verification page blocks access.
 
 Solo entrant: Vivaan Kandhari.
 
@@ -8,7 +8,7 @@ Tagline: Exact payment allocation with ambiguity witnesses and checkable certifi
 
 Source: https://github.com/VivaanKandhari/reconproof
 
-Public app: https://vivaankandhari.github.io/reconproof/ (verify deployment before saving to Devpost).
+Public app: https://vivaankandhari.github.io/reconproof/ (live allocation and certificate verification checked).
 
 Demo: https://youtu.be/mD1z-3-djWc . YouTube confirmed Video published, Unlisted selected, no issues found; displayed duration 2:17.
 
@@ -42,7 +42,7 @@ Implementation and materials were AI-assisted. The entrant is the sole registere
 
 ## Remaining submission gate
 
-- Verify the GitHub Pages deployment and all public interactions; keep its address free of the prior platform hostname.
+- [x] GitHub Pages app published; allocation and certificate verification work at the clean public address.
 - [x] YouTube publication confirmed. Public watch-page playback recheck is blocked by the network's Google traffic verification.
 - Resolve Devpost verification; create draft, fill all actual fields and check required assets.
 - Obtain action-time agreement approval at final submission if required, submit and verify actual Submitted state.
