@@ -2,7 +2,9 @@
 
 Exact-money partial reconciliation, equal-optimum ambiguity witnesses, and independent maximum-flow/minimum-cost certificate verification. Built after solo Galuxium registration on 18 October 2026. Not yet submitted. Sole entrant: Vivaan Kandhari.
 
-Demo: https://youtu.be/mD1z-3-djWc (Unlisted; YouTube displays 2:17). It renders real locally executed Worker API responses, not fabricated browser captures. A deployed owner-private preview exists; judge-facing public access is pending explicit audience approval.
+Video: https://youtu.be/mD1z-3-djWc (Unlisted; YouTube displays 2:17). It renders real locally executed Worker API responses, not fabricated browser captures.
+
+Public demo target: https://vivaankandhari.github.io/reconproof/ . To keep the public address free of platform branding, this deployment runs the same solver and verifier locally in the browser. It does not send submitted records to the separate Worker service. The optional Worker API remains available for local reproduction; its hosted preview is private. Publication status and actual access are recorded in VALIDATION.md.
 
 ## Run
 
@@ -11,11 +13,12 @@ Node 20+; no packages, credentials or external model APIs needed.
 ```
 node test.mjs
 node scripts/build.mjs
+node scripts/build-static.mjs
 node scripts/validate-artifact.mjs
 node scripts/preview.mjs
 ```
 
-Open http://127.0.0.1:4185. The generated Worker serves the UI and JSON API. Edit src/, not generated worker/index.js or dist/. Deployment identity belongs in .openai/hosting.json; never add credentials.
+Open http://127.0.0.1:4185 for the Worker API mode. The generated docs/ site uses browser-local execution with the same engine. Edit src/, not generated docs/, worker/index.js or dist/. Deployment identity belongs in .openai/hosting.json; never add credentials.
 
 ## Model
 
@@ -37,7 +40,7 @@ A simple zero-reduced-cost residual cycle containing an allocation edge yields a
 - POST /api/reconcile: input → audit/certificate.
 - POST /api/verify: audit → valid/scope or error.
 
-POST requires application/json. The public sandbox is stateless and bounded. It stores no application records, accounts or credentials server-side; hosting infrastructure can process request metadata. Use fictional or authorized records. There is no distributed rate limiting, production SLA or hardened multi-tenant financial infrastructure.
+In Worker mode, POST requires application/json; the service is stateless and bounded. The public browser demo does not use these endpoints and sends no records to a solver server. Hosting infrastructure can process page-request metadata. Use fictional or authorized records. There is no distributed rate limiting, production SLA or hardened multi-tenant financial infrastructure.
 
 ## Validation and limits
 
