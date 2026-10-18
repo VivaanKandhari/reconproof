@@ -1,6 +1,6 @@
 # ReconProof — Galuxium submission payload
 
-Status: registered solo; built after registration on 18 October 2026. Source and demo published; deployed site currently private, awaiting explicit public-audience approval. Devpost draft and final submission are NOT yet created/confirmed because its verification page is blocking access.
+Status: registered solo; built after registration on 18 October 2026. Source and demo published. Public browser-local deployment is being published on GitHub Pages at the user's requested address without a branded hostname. The separate Worker preview remains private. Devpost draft and final submission are NOT yet created/confirmed because its verification page blocks access.
 
 Solo entrant: Vivaan Kandhari.
 
@@ -8,7 +8,7 @@ Tagline: Exact payment allocation with ambiguity witnesses and checkable certifi
 
 Source: https://github.com/VivaanKandhari/reconproof
 
-Deployed site: https://reconproof-vivaan.silly-cow-8102.chatgpt.site (private until audience approval).
+Public app: https://vivaankandhari.github.io/reconproof/ (verify deployment before saving to Devpost).
 
 Demo: https://youtu.be/mD1z-3-djWc . YouTube confirmed Video published, Unlisted selected, no issues found; displayed duration 2:17.
 
@@ -18,11 +18,11 @@ A small-business bookkeeper may have several partial payments and several invoic
 
 ## Working product
 
-Users enter JSON or import two CSV files, configure a date window, and run a hosted reconciliation service. It permits partial allocation, keeps currencies separate, displays unallocated money and outstanding invoices, and exposes an alternative allocation when the optimum is non-unique. A downloaded audit can be re-imported into a separate verifier. The browser saves a draft only when requested.
+Users enter JSON or import two CSV files, configure a date window, and reconcile locally in the hosted browser app. It permits partial allocation, keeps currencies separate, displays unallocated money and outstanding invoices, and exposes an alternative allocation when the optimum is non-unique. A downloaded audit can be re-imported into a separate verifier. The browser saves a draft only when requested. Its public deployment sends no records to a solver server.
 
 ## Technical architecture
 
-A dependency-free JavaScript module implements exact integer minor-unit arithmetic, candidate constraints and min-cost maximum flow. A stateless Cloudflare Worker serves the UI and bounded JSON endpoints. The independent verifier rebuilds the network and checks allocation capacities, objective values, a max-flow cut and nonnegative reduced costs under supplied node potentials. A zero-cost residual cycle produces an ambiguity witness.
+A dependency-free JavaScript module implements exact integer minor-unit arithmetic, candidate constraints and min-cost maximum flow. GitHub Pages serves the public browser-local app. The same engine also runs behind an optional stateless Worker JSON API, reproducible locally; its hosted preview remains private. The independent verifier rebuilds the network and checks allocation capacities, objective values, a max-flow cut and nonnegative reduced costs under supplied node potentials. A zero-cost residual cycle produces an ambiguity witness.
 
 Candidates must share normalized counterparty and currency and lie within the configured absolute date gap. The lexicographic objective is maximum allocated amount followed by minimum amount-weighted date gap. This is a chosen matching model, not evidence that a payment belongs to the corresponding invoice. Established optimization/certificate methods are combined; a new global algorithm is not claimed.
 
@@ -42,7 +42,7 @@ Implementation and materials were AI-assisted. The entrant is the sole registere
 
 ## Remaining submission gate
 
-- Make the Site publicly accessible with explicit audience approval.
+- Verify the GitHub Pages deployment and all public interactions; keep its address free of the prior platform hostname.
 - [x] YouTube publication confirmed. Public watch-page playback recheck is blocked by the network's Google traffic verification.
 - Resolve Devpost verification; create draft, fill all actual fields and check required assets.
 - Obtain action-time agreement approval at final submission if required, submit and verify actual Submitted state.
