@@ -2,6 +2,8 @@
 
 Exact-money partial reconciliation, equal-optimum ambiguity witnesses, and independent maximum-flow/minimum-cost certificate verification. Built after solo Galuxium registration on 18 October 2026. Not yet submitted. Sole entrant: Vivaan Kandhari.
 
+Demo: https://youtu.be/mD1z-3-djWc (Unlisted; YouTube displays 2:17). It renders real locally executed Worker API responses, not fabricated browser captures. A deployed owner-private preview exists; judge-facing public access is pending explicit audience approval.
+
 ## Run
 
 Node 20+; no packages, credentials or external model APIs needed.
