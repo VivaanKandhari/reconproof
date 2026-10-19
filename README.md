@@ -6,6 +6,8 @@ Video: https://youtu.be/mD1z-3-djWc (Unlisted; YouTube displays 2:17). It render
 
 Live app: https://vivaankandhari.github.io/reconproof/ . This deployment runs the same solver and verifier locally in the browser. It does not send submitted records to the separate Worker service. The optional Worker API remains available for local reproduction; its hosted preview is private. The public app's allocation and certificate verification were checked on 18 October 2026.
 
+UI workflow video: [Download/watch the 136-second demo](https://raw.githubusercontent.com/VivaanKandhari/reconproof/main/ReconProof-UI-demo.mp4). It combines real captures of the working public browser app with executed API results, including the alternative allocation and independent audit verification. These are annotated captures, not a continuous screen recording. The existing YouTube video is the earlier API-focused demonstration.
+
 ## Run
 
 Node 20+; no packages, credentials or external model APIs needed.

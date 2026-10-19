@@ -1,6 +1,6 @@
 # ReconProof — Galuxium submission payload
 
-Status: registered solo; built after registration on 18 October 2026. Source, Unlisted demo and public browser-local app published and verified. The separate Worker preview remains private. Devpost draft and final submission are NOT yet created/confirmed because its verification page blocks access.
+Status: registered solo; built after registration on 18 October 2026. Source, Unlisted demo and public browser-local app published and verified. The separate Worker preview remains private. Devpost draft 1244894-reconproof is saved at 4/5 steps. Final submission is NOT confirmed. The replacement ZIP and public UI video still need to be verified in the saved entry. Browser access is blocked; no final agreement or submission has occurred.
 
 Solo entrant: Vivaan Kandhari.
 
@@ -28,7 +28,7 @@ Candidates must share normalized counterparty and currency and lie within the co
 
 ## Verification
 
-Eleven core checks pass. An independent exhaustive enumerator agrees on allocation, cost and ambiguity across 120 deterministic tiny networks. API validation checks include malformed JSON, content type, unknown routes and streamed size limits. The actual browser alternate view and exported audit re-import were checked. The narrated demo renders real executed Worker API responses for readability; it is not claimed to be a browser screen recording. Its full encoded video was decoded successfully and an encoded frame inspected.
+Eleven core checks pass. An independent exhaustive enumerator agrees on allocation, cost and ambiguity across 120 deterministic tiny networks. API validation checks include malformed JSON, content type, unknown routes and streamed size limits. The actual browser alternate view and exported audit re-import were checked. The earlier embedded YouTube demo renders real executed Worker API responses for readability. The additional [UI workflow demo](https://raw.githubusercontent.com/VivaanKandhari/reconproof/main/ReconProof-UI-demo.mp4) combines real captures of the public app with executed API results, including allocation alternatives and audit verification. It is also included in the prepared source ZIP. These are annotated captures, not a continuous screen recording. The full encoded videos decoded successfully and encoded frames were inspected.
 
 ## Monetization blueprint
 
@@ -44,6 +44,6 @@ Implementation and materials were AI-assisted. The entrant is the sole registere
 
 - [x] GitHub Pages app published; allocation and certificate verification work at the clean public address.
 - [x] YouTube publication confirmed. Public watch-page playback recheck is blocked by the network's Google traffic verification.
-- Resolve Devpost verification; create draft, fill all actual fields and check required assets.
+- Draft 1244894-reconproof is saved at 4/5 steps. Recover signed-in browser access; add the public UI video link, verify the complete replacement ZIP, and audit all saved fields.
 - Obtain action-time agreement approval at final submission if required, submit and verify actual Submitted state.
 - Deadline: 31 October 2026 19:30 HKT; recheck official event before final action.
