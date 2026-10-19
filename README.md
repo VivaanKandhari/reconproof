@@ -1,12 +1,12 @@
 # ReconProof
 
-Exact-money partial reconciliation, equal-optimum ambiguity witnesses, and independent maximum-flow/minimum-cost certificate verification. Built after solo Galuxium registration on 18 October 2026. Not yet submitted. Sole entrant: Vivaan Kandhari.
+Exact-money partial reconciliation, equal-optimum ambiguity witnesses, and independent maximum-flow/minimum-cost certificate verification. Built after solo Galuxium registration on 18 October 2026. Submitted to Galuxium Nexus V2 on 19 October 2026; Devpost displayed "Project submitted!". Sole entrant: Vivaan Kandhari.
 
-Video: https://youtu.be/mD1z-3-djWc (Unlisted; YouTube displays 2:17). It renders real locally executed Worker API responses, not fabricated browser captures.
+Video: https://youtu.be/29TzWDxyqrY (Unlisted; YouTube displays 2:17). It combines real public browser UI captures with executed Worker API responses. These are annotated captures, not a continuous screen recording. Embedded playback was checked on the submitted Devpost page.
 
 Live app: https://vivaankandhari.github.io/reconproof/ . This deployment runs the same solver and verifier locally in the browser. It does not send submitted records to the separate Worker service. The optional Worker API remains available for local reproduction; its hosted preview is private. The public app's allocation and certificate verification were checked on 18 October 2026.
 
-UI workflow video: [Download/watch the 136-second demo](https://raw.githubusercontent.com/VivaanKandhari/reconproof/main/ReconProof-UI-demo.mp4). It combines real captures of the working public browser app with executed API results, including the alternative allocation and independent audit verification. These are annotated captures, not a continuous screen recording. The existing YouTube video is the earlier API-focused demonstration.
+UI workflow video: [Download/watch the 136-second demo](https://raw.githubusercontent.com/VivaanKandhari/reconproof/main/ReconProof-UI-demo.mp4). It combines real captures of the working public browser app with executed API results, including the alternative allocation and independent audit verification. These are annotated captures, not a continuous screen recording. The earlier API-focused video remains at https://youtu.be/mD1z-3-djWc .
 
 ## Run
 

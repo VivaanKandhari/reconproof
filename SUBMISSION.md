@@ -1,6 +1,6 @@
 # ReconProof — Galuxium submission payload
 
-Status: registered solo; built after registration on 18 October 2026. Source, Unlisted demo and public browser-local app published and verified. The separate Worker preview remains private. Devpost draft 1244894-reconproof is saved at 4/5 steps. Final submission is NOT confirmed. The replacement ZIP and public UI video still need to be verified in the saved entry. Browser access is blocked; no final agreement or submission has occurred.
+Status: submitted to Galuxium Nexus V2 on 19 October 2026 at approximately 11:43 HKT. Devpost displayed "Project submitted!" and "Submitted to Galuxium Nexus V2". Entry 1244894-reconproof; public page https://devpost.com/software/reconproof . The private Worker preview remains private.
 
 Solo entrant: Vivaan Kandhari.
 
@@ -10,7 +10,7 @@ Source: https://github.com/VivaanKandhari/reconproof
 
 Public app: https://vivaankandhari.github.io/reconproof/ (live allocation and certificate verification checked).
 
-Demo: https://youtu.be/mD1z-3-djWc . YouTube confirmed Video published, Unlisted selected, no issues found; displayed duration 2:17.
+Demo: https://youtu.be/29TzWDxyqrY . YouTube confirmed Video published, Unlisted selected and no issues found; displayed 2:17. Embedded playback on the submitted Devpost page progressed to 22 seconds of 2:16 before pausing.
 
 ## Problem and intended user
 
@@ -28,7 +28,7 @@ Candidates must share normalized counterparty and currency and lie within the co
 
 ## Verification
 
-Eleven core checks pass. An independent exhaustive enumerator agrees on allocation, cost and ambiguity across 120 deterministic tiny networks. API validation checks include malformed JSON, content type, unknown routes and streamed size limits. The actual browser alternate view and exported audit re-import were checked. The earlier embedded YouTube demo renders real executed Worker API responses for readability. The additional [UI workflow demo](https://raw.githubusercontent.com/VivaanKandhari/reconproof/main/ReconProof-UI-demo.mp4) combines real captures of the public app with executed API results, including allocation alternatives and audit verification. It is also included in the prepared source ZIP. These are annotated captures, not a continuous screen recording. The full encoded videos decoded successfully and encoded frames were inspected.
+Eleven core checks pass. An independent exhaustive enumerator agrees on allocation, cost and ambiguity across 120 deterministic tiny networks. API validation checks include malformed JSON, content type, unknown routes and streamed size limits. The actual browser alternate view and exported audit re-import were checked. The embedded UI walkthrough combines real captures of the working public app with executed Worker API results. The additional [UI workflow demo](https://raw.githubusercontent.com/VivaanKandhari/reconproof/main/ReconProof-UI-demo.mp4) combines real captures of the public app with executed API results, including allocation alternatives and audit verification. It is also included in the prepared source ZIP. These are annotated captures, not a continuous screen recording. The full encoded videos decoded successfully and encoded frames were inspected.
 
 ## Monetization blueprint
 
@@ -40,10 +40,14 @@ The current sandbox caps input at 30 payments and 30 invoices and uses explicit 
 
 Implementation and materials were AI-assisted. The entrant is the sole registered participant and should review and understand the code. No team member or real-world validation is invented.
 
-## Remaining submission gate
+## Submission verification
 
-- [x] GitHub Pages app published; allocation and certificate verification work at the clean public address.
-- [x] YouTube publication confirmed. Public watch-page playback recheck is blocked by the network's Google traffic verification.
-- Draft 1244894-reconproof is saved at 4/5 steps. Recover signed-in browser access; add the public UI video link, verify the complete replacement ZIP, and audit all saved fields.
-- Obtain action-time agreement approval at final submission if required, submit and verify actual Submitted state.
-- Deadline: 31 October 2026 19:30 HKT; recheck official event before final action.
+- [x] Public app and source links saved and visible on the submitted project page.
+- [x] New Unlisted UI demo saved as the embedded video; actual playback checked and paused at 22 seconds.
+- [x] Actual application screenshot saved in the image gallery with a fictional-example caption.
+- [x] Additional info confirmed Current File: ReconProof-Galuxium-UI-complete.zip, containing source/tests/docs/screenshot/transcript/UI video.
+- [x] Sole registered entrant confirmed as Vivaan Kandhari.
+- [x] User explicitly confirmed final Official Rules and Devpost Terms agreement; checked and submitted.
+- [x] Actual Devpost confirmation observed: Project submitted! and Submitted to Galuxium Nexus V2.
+
+This confirms submission and the listed required materials, not judging acceptance, production readiness or a prize. Edits remain possible until 31 October 2026 19:30 HKT.
